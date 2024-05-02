@@ -1,0 +1,14 @@
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\bin\Debug\net8.0\Huffman.exe
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\bin\Debug\net8.0\Huffman.deps.json
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\bin\Debug\net8.0\Huffman.runtimeconfig.json
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\bin\Debug\net8.0\Huffman.dll
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\bin\Debug\net8.0\Huffman.pdb
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\obj\Debug\net8.0\Huffman.GeneratedMSBuildEditorConfig.editorconfig
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\obj\Debug\net8.0\Huffman.AssemblyInfoInputs.cache
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\obj\Debug\net8.0\Huffman.AssemblyInfo.cs
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\obj\Debug\net8.0\Huffman.csproj.CoreCompileInputs.cache
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\obj\Debug\net8.0\Huffman.dll
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\obj\Debug\net8.0\refint\Huffman.dll
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\obj\Debug\net8.0\Huffman.pdb
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\obj\Debug\net8.0\Huffman.genruntimeconfig.cache
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Huffman Coding\Huffman\obj\Debug\net8.0\ref\Huffman.dll

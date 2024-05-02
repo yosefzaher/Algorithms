@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1713575153 source:d:\full embedded systems dibloma\algorithms\excersises\sgergate positive and negative numbers\segregatepositiveandnegativenums\main.c
+	<stdio.h>
+	<stdlib.h>
+

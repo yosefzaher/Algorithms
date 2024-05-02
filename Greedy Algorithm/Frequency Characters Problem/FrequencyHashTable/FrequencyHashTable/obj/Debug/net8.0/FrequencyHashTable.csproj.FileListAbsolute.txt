@@ -1,0 +1,14 @@
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\bin\Debug\net8.0\FrequencyHashTable.exe
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\bin\Debug\net8.0\FrequencyHashTable.deps.json
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\bin\Debug\net8.0\FrequencyHashTable.runtimeconfig.json
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\bin\Debug\net8.0\FrequencyHashTable.dll
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\bin\Debug\net8.0\FrequencyHashTable.pdb
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\obj\Debug\net8.0\FrequencyHashTable.GeneratedMSBuildEditorConfig.editorconfig
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\obj\Debug\net8.0\FrequencyHashTable.AssemblyInfoInputs.cache
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\obj\Debug\net8.0\FrequencyHashTable.AssemblyInfo.cs
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\obj\Debug\net8.0\FrequencyHashTable.csproj.CoreCompileInputs.cache
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\obj\Debug\net8.0\FrequencyHashTable.dll
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\obj\Debug\net8.0\refint\FrequencyHashTable.dll
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\obj\Debug\net8.0\FrequencyHashTable.pdb
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\obj\Debug\net8.0\FrequencyHashTable.genruntimeconfig.cache
+D:\Full Embedded Systems Dibloma\Algorithms\Greedy Algorithm\Frequency Characters Problem\FrequencyHashTable\FrequencyHashTable\obj\Debug\net8.0\ref\FrequencyHashTable.dll
