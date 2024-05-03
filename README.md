@@ -29,6 +29,8 @@ Merge sort is a divide and conquer algorithm that splits an array into two halve
   - Time Complexity: O(n log n)
   - Space Complexity: O(n)
 
+<p align="center"><img src="https://www.w3schools.com/dsa/img_mergesort_long.png" alt="project-image"></p>
+
 ## Searching Algorithms
 
 ### Binary Search
@@ -42,6 +44,8 @@ Binary search is a searching algorithm that operates on a sorted array. It works
 - **Time Complexity Classes:**
   - Time Complexity: O(log n)
   - Space Complexity: O(1)
+
+<p align="center"><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*M8nxu1oYQy2vpWRjlVdXNA.png" alt="project-image"></p>
 
 ## Divide and Conquer Technique
 
@@ -57,7 +61,7 @@ Divide and conquer is a fundamental algorithmic technique for solving problems. 
 
 ## Greedy Algorithm
 
-### Activity Selection Technique
+### Activity Selection Algorithm
 
 Activity selection is a classic algorithmic problem that can be solved using a greedy algorithm. The problem is to select a maximum-size set of activities that can be performed by a single person, assuming that a person can only work on a single activity at a time.
 
@@ -68,6 +72,9 @@ Activity selection is a classic algorithmic problem that can be solved using a g
 - **Time Complexity Classes:**
   - Time Complexity: O(n log n)
   - Space Complexity: O(n)
+
+ <p align="center"><img src="https://iq.opengenus.org/content/images/2019/03/Example1.png" alt="project-image"></p>
+ <p align="center"><img src="https://iq.opengenus.org/content/images/2019/03/Example2-2.png" alt="project-image"></p>
 
 ## Huffman Coding
 
@@ -80,6 +87,8 @@ Huffman coding is a lossless data compression algorithm. The idea is to assign v
 - **Time Complexity Classes:**
   - Time Complexity: O(n log n)
   - Space Complexity: O(n)
+ 
+<p align="center"><img src="https://kamilmysliwiec.com/wp-content/uploads/2017/04/chart.png" alt="project-image"></p>
 
 ## Practice Problems
 
