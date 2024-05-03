@@ -4,7 +4,7 @@ This repository contains various algorithms, including sorting, searching, divid
 
 ## Sorting Algorithms
 
-### Insertion Sort
+## Insertion Sort
 
 ### Introduction
 
