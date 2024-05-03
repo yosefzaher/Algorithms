@@ -15,7 +15,7 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 - **Time Complexity Classes:**
   - Time Complexity: O(n^2)
   - Space Complexity: O(1)
-<p align="center"><img src="[https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221219100314/stack.drawio2.png](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*81Yk_fwfCB3iCwRP.png)" alt="project-image"></p>
+<p align="center"><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*81Yk_fwfCB3iCwRP.png" alt="project-image"></p>
 
 ### Merge Sort
 
