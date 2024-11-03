@@ -325,6 +325,148 @@ Huffman coding is a widely used data compression algorithm that efficiently redu
  
 <p align="center"><img src="https://kamilmysliwiec.com/wp-content/uploads/2017/04/chart.png" alt="project-image"></p>
 
+## Dynamic Programming
+
+### Longest Common Subsequence (LCS)
+
+The Longest Common Subsequence (LCS) problem aims to find the longest sequence that appears in the same order in two different sequences. It is often used in applications such as file comparison and bioinformatics.
+
+### How it Works
+
+1. **Create a 2D Table:** Initialize a table to store lengths of longest common subsequence lengths.
+2. **Fill the Table:** Iterate through both sequences:
+   - If characters match, increment the value from the diagonal cell.
+   - If they do not match, take the maximum value from the left or top cell.
+3. **Trace Back:** Once the table is filled, trace back to find the actual LCS.
+
+### Algorithm Steps
+
+1. **Initialize a 2D array:** Create an array of size (m+1) x (n+1), where m and n are the lengths of the two sequences.
+2. **Populate the array:** Loop through the characters of both sequences and fill the array based on matches.
+3. **Retrieve LCS:** Backtrack through the array to reconstruct the LCS.
+
+### Example
+
+Given two sequences:
+- Sequence 1: `ABCBDAB`
+- Sequence 2: `BDCAB`
+
+The LCS is `BCAB` or `BDAB`, both of which have a length of 4.
+
+### Complexity Analysis
+
+- **Time Complexity:** O(m * n), where m and n are the lengths of the two sequences.
+- **Space Complexity:** O(m * n) for the 2D table.
+
+### Advantages
+
+- Provides a systematic approach to find the longest subsequence.
+- Applicable in various fields such as computational biology and data comparison.
+
+### Disadvantages
+
+- Can consume significant memory for large sequences due to the 2D table.
+
+### Conclusion
+
+The Longest Common Subsequence algorithm effectively identifies the longest sequence that appears in both sequences, providing insights into data similarities and differences. Despite its space complexity, its applications in comparison and analysis make it a valuable algorithm.
+
+<p align="center"><img src="https://example.com/lcs-example.png" alt="LCS Example"></p>
+
+---
+
+### Stagecoach Problem
+
+The Stagecoach Problem is a dynamic programming problem that deals with maximizing the total profit from transporting passengers along a given route with constraints on the number of passengers.
+
+### How it Works
+
+1. **Define States:** Each state represents a combination of passengers and the current stage.
+2. **Recurrence Relation:** Use previous states to determine the maximum profit for the current stage based on the number of passengers transported.
+3. **Compute Solutions:** Calculate the maximum profit iteratively or recursively.
+
+### Algorithm Steps
+
+1. **Define Profit Table:** Create a table to store the maximum profit for each stage and passenger count.
+2. **Iterate Through Passengers:** Loop through each stage and update the profit table based on the current passengers.
+3. **Retrieve Maximum Profit:** The result will be the maximum value in the last row of the profit table.
+
+### Example
+
+Consider a scenario where you can transport a maximum of `k` passengers and the profit per passenger varies with each stage.
+
+### Complexity Analysis
+
+- **Time Complexity:** O(n * k), where n is the number of stages and k is the maximum number of passengers.
+- **Space Complexity:** O(n) for the profit table.
+
+### Advantages
+
+- Efficiently solves problems involving resource allocation and profit maximization.
+- Applicable in logistics and transportation planning.
+
+### Disadvantages
+
+- Requires accurate profit data for each stage.
+- Complexity increases with more stages or constraints.
+
+### Conclusion
+
+The Stagecoach Problem provides a systematic approach to maximize profits in transportation scenarios. Through careful state definition and iteration, it efficiently finds the best solution within given constraints.
+
+<p align="center"><img src="https://example.com/stagecoach-example.png" alt="Stagecoach Example"></p>
+
+---
+
+### 0/1 Knapsack Problem
+
+The 0/1 Knapsack Problem is a classic optimization problem that involves selecting items with given weights and values to maximize the total value in a knapsack with a weight limit.
+
+### How it Works
+
+1. **Define the Knapsack:** Set the maximum weight capacity of the knapsack.
+2. **Create a 2D Table:** Use a table to store maximum values for different weights and items.
+3. **Fill the Table:** Iterate through items and update the table based on whether to include an item or not.
+
+### Algorithm Steps
+
+1. **Initialize a 2D array:** Create an array of size (n+1) x (W+1), where n is the number of items and W is the weight capacity.
+2. **Populate the array:** For each item, check if its weight is less than or equal to the current weight limit:
+   - If yes, take the maximum of including the item or excluding it.
+3. **Retrieve Maximum Value:** The result will be in the bottom-right cell of the table.
+
+### Example
+
+Given items with the following weights and values:
+- Item 1: Weight 2, Value 3
+- Item 2: Weight 3, Value 4
+- Item 3: Weight 4, Value 5
+
+And a knapsack capacity of 5, the maximum value that can be carried is 7.
+
+### Complexity Analysis
+
+- **Time Complexity:** O(n * W), where n is the number of items and W is the weight capacity.
+- **Space Complexity:** O(n * W) for the 2D table.
+
+### Advantages
+
+- Provides an optimal solution for resource allocation problems.
+- Can be adapted to various scenarios involving constraints.
+
+### Disadvantages
+
+- Space complexity can be high for large inputs.
+- Performance may degrade with large weight capacities or item counts.
+
+### Conclusion
+
+The 0/1 Knapsack Problem offers a robust method for maximizing value within given constraints. Its widespread applicability in resource allocation and optimization makes it a fundamental problem in computer science.
+
+<p align="center"><img src="https://example.com/knapsack-example.png" alt="Knapsack Example"></p>
+
+
+
 ## Practice Problems
 
 - Sorting:
