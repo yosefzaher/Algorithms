@@ -488,7 +488,7 @@ Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a 
 
 ### Example
 
-<p align="center"><img src="https://example.com/prims-example.png" alt="Prim's MST Example"></p>
+<p align="center"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20210406145306/MST1.PNG" alt="Prim's MST Example"></p>
 
 ### Complexity Analysis
 
@@ -531,7 +531,7 @@ Breadth-First Search (BFS) is an algorithm for traversing or searching tree or g
 
 ### Example
 
-<p align="center"><img src="https://example.com/bfs-example.png" alt="BFS Example"></p>
+<p align="center"><img src="https://blog.aos.sh/img/BFS.gif" alt="BFS Example"></p>
 
 ### Complexity Analysis
 
@@ -574,7 +574,7 @@ Depth-First Search (DFS) is an algorithm for traversing or searching tree or gra
 
 ### Example
 
-<p align="center"><img src="https://example.com/dfs-example.png" alt="DFS Example"></p>
+<p align="center"><img src="https://codepumpkin.com/wp-content/uploads/2017/04/dfs.gif" alt="DFS Example"></p>
 
 ### Complexity Analysis
 
@@ -617,7 +617,7 @@ Dijkstra's algorithm is a graph search algorithm that finds the shortest path fr
 
 ### Example
 
-<p align="center"><img src="https://example.com/dijkstra-example.png" alt="Dijkstra's Shortest Path Example"></p>
+<p align="center"><img src="https://b2316719.smushcdn.com/2316719/wp-content/uploads/2023/03/dijkstra_animation_02.gif" alt="Dijkstra's Shortest Path Example"></p>
 
 ### Complexity Analysis
 
