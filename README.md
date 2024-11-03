@@ -463,7 +463,7 @@ And a knapsack capacity of 5, the maximum value that can be carried is 7.
 
 The 0/1 Knapsack Problem offers a robust method for maximizing value within given constraints. Its widespread applicability in resource allocation and optimization makes it a fundamental problem in computer science.
 
-<p align="center"><img src="https://example.com/knapsack-example.png" alt="Knapsack Example"></p>
+<p align="center"><img src="https://www.tutorialspoint.com/data_structures_algorithms/images/maximum_profit_12.jpg" alt="Knapsack Example"></p>
 
 ## Graphs
 
