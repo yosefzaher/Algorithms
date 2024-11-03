@@ -371,7 +371,7 @@ The LCS is `BCAB` or `BDAB`, both of which have a length of 4.
 
 The Longest Common Subsequence algorithm effectively identifies the longest sequence that appears in both sequences, providing insights into data similarities and differences. Despite its space complexity, its applications in comparison and analysis make it a valuable algorithm.
 
-<p align="center"><img src="https://example.com/lcs-example.png" alt="LCS Example"></p>
+<p align="center"><img src="[https://example.com/lcs-example.png](https://www.dotnetlovers.com/images/coolnikhilj2265da340b-f1ff-41a2-8f17-670bf36a4ab1.png?1/3/2017%201:08:47%20AM)" alt="LCS Example"></p>
 
 ---
 
