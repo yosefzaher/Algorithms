@@ -414,7 +414,7 @@ Consider a scenario where you can transport a maximum of `k` passengers and the 
 
 The Stagecoach Problem provides a systematic approach to maximize profits in transportation scenarios. Through careful state definition and iteration, it efficiently finds the best solution within given constraints.
 
-<p align="center"><img src="https://example.com/stagecoach-example.png" alt="Stagecoach Example"></p>
+<p align="center"><img src="https://www.ii.uib.no/saga/SC96EPR/images/stagecoach.gif" alt="Stagecoach Example"></p>
 
 ---
 
