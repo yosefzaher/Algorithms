@@ -465,6 +465,178 @@ The 0/1 Knapsack Problem offers a robust method for maximizing value within give
 
 <p align="center"><img src="https://example.com/knapsack-example.png" alt="Knapsack Example"></p>
 
+## Graphs
+
+### Prim's Minimum Spanning Tree (MST)
+
+Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. This means it finds a subset of the edges that connects all vertices with the minimum possible total edge weight.
+
+### How it Works
+
+1. **Initialization:** Start with a single vertex and include it in the MST.
+2. **Expand the MST:** At each step, add the smallest edge that connects a vertex in the MST to a vertex outside the MST.
+3. **Repeat:** Continue until all vertices are included in the MST.
+
+### Algorithm Steps
+
+1. **Choose a starting vertex:** Initialize the MST with this vertex.
+2. **Create a priority queue:** Store edges with weights, sorted by weight.
+3. **While there are vertices not in the MST:**
+   - Extract the minimum edge from the queue.
+   - Add the edge to the MST and the connected vertex to the MST.
+   - Add all edges from the newly added vertex to the queue.
+
+### Example
+
+<p align="center"><img src="https://example.com/prims-example.png" alt="Prim's MST Example"></p>
+
+### Complexity Analysis
+
+- **Time Complexity:** O(E log V), where E is the number of edges and V is the number of vertices.
+- **Space Complexity:** O(V) for storing the MST and priority queue.
+
+### Advantages
+
+- Efficient for dense graphs.
+- Guarantees the minimum spanning tree.
+
+### Disadvantages
+
+- Requires a priority queue or similar data structure for efficiency.
+- Not suitable for graphs with negative weight edges.
+
+### Conclusion
+
+Prim's algorithm efficiently finds the minimum spanning tree of a graph, ensuring that all vertices are connected with minimal edge weight. It is widely used in network design and optimization problems.
+
+---
+
+### Breadth-First Search (BFS)
+
+Breadth-First Search (BFS) is an algorithm for traversing or searching tree or graph data structures. It explores all the neighbor nodes at the present depth before moving on to nodes at the next depth level.
+
+### How it Works
+
+1. **Initialization:** Start with a selected node and enqueue it.
+2. **Explore Neighbors:** Dequeue the front node, mark it as visited, and enqueue all its unvisited neighbors.
+3. **Repeat:** Continue until all nodes have been visited.
+
+### Algorithm Steps
+
+1. **Create a queue:** For holding nodes to visit.
+2. **Enqueue the starting node:** Mark it as visited.
+3. **While the queue is not empty:**
+   - Dequeue the front node.
+   - For each unvisited neighbor, enqueue it and mark it as visited.
+
+### Example
+
+<p align="center"><img src="https://example.com/bfs-example.png" alt="BFS Example"></p>
+
+### Complexity Analysis
+
+- **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges.
+- **Space Complexity:** O(V) for storing the queue and visited nodes.
+
+### Advantages
+
+- Completes in a finite number of steps for finite graphs.
+- Finds the shortest path in unweighted graphs.
+
+### Disadvantages
+
+- Requires significant memory for large graphs.
+- Not efficient for deep trees.
+
+### Conclusion
+
+BFS is a powerful algorithm for exploring graphs and trees, particularly useful for finding the shortest path in unweighted graphs and level-order traversal.
+
+---
+
+### Depth-First Search (DFS)
+
+Depth-First Search (DFS) is an algorithm for traversing or searching tree or graph data structures. It explores as far as possible along a branch before backtracking.
+
+### How it Works
+
+1. **Initialization:** Start from a selected node, marking it as visited.
+2. **Explore Depth:** Visit a neighbor node, mark it as visited, and recursively explore its neighbors.
+3. **Backtrack:** If no unvisited neighbors are left, backtrack to the previous node and continue.
+
+### Algorithm Steps
+
+1. **Create a stack:** For holding nodes to visit (or use recursion).
+2. **Push the starting node:** Mark it as visited.
+3. **While the stack is not empty:**
+   - Pop the top node.
+   - For each unvisited neighbor, push it to the stack and mark it as visited.
+
+### Example
+
+<p align="center"><img src="https://example.com/dfs-example.png" alt="DFS Example"></p>
+
+### Complexity Analysis
+
+- **Time Complexity:** O(V + E), where V is the number of vertices and E is the number of edges.
+- **Space Complexity:** O(V) for storing the stack and visited nodes.
+
+### Advantages
+
+- Uses less memory than BFS for deep graphs.
+- Can easily be implemented using recursion.
+
+### Disadvantages
+
+- May get trapped in deep paths without visiting all nodes.
+- Cannot find the shortest path in graphs with cycles.
+
+### Conclusion
+
+DFS is a versatile algorithm for traversing graphs, effective for searching and pathfinding, but may not yield the shortest path.
+
+---
+
+### Dijkstra's Shortest Path
+
+Dijkstra's algorithm is a graph search algorithm that finds the shortest path from a starting node to all other nodes in a weighted graph with non-negative weights.
+
+### How it Works
+
+1. **Initialization:** Set the distance to the starting node as 0 and all others as infinity.
+2. **Settle Nodes:** Use a priority queue to repeatedly select the node with the smallest distance, updating distances to its neighbors.
+3. **Repeat:** Continue until all nodes have been settled.
+
+### Algorithm Steps
+
+1. **Create a priority queue:** For nodes sorted by distance.
+2. **Set the starting node's distance to 0.**
+3. **While the queue is not empty:**
+   - Extract the node with the minimum distance.
+   - For each unvisited neighbor, calculate the potential distance and update if it's smaller.
+
+### Example
+
+<p align="center"><img src="https://example.com/dijkstra-example.png" alt="Dijkstra's Shortest Path Example"></p>
+
+### Complexity Analysis
+
+- **Time Complexity:** O((V + E) log V), where V is the number of vertices and E is the number of edges.
+- **Space Complexity:** O(V) for the distance table and priority queue.
+
+### Advantages
+
+- Guarantees the shortest path in graphs with non-negative weights.
+- Efficiently handles dense graphs.
+
+### Disadvantages
+
+- Cannot handle graphs with negative weight edges.
+- Slower than some algorithms for sparse graphs.
+
+### Conclusion
+
+Dijkstra's algorithm provides a reliable method for finding the shortest paths in a graph, extensively used in routing and navigation applications.
 
 
 ## Practice Problems
@@ -478,3 +650,12 @@ The 0/1 Knapsack Problem offers a robust method for maximizing value within give
 - Greedy:
   - [Activity Selection](https://leetcode.com/problems/activity-selection-ii/)
   - [Huffman Coding](https://leetcode.com/problems/maximum-binary-tree/)
+- Dynamic Programming:
+  - [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+  - [Stagecoach Problem](https://leetcode.com/problems/stagecoach-problem/) (if applicable, otherwise use a relevant link)
+- Graphs:
+  - [Prim's MST](https://leetcode.com/problems/minimum-spanning-tree/)
+  - [Breadth-First Search (BFS)](https://leetcode.com/tag/breadth-first-search/)
+  - [Depth-First Search (DFS)](https://leetcode.com/tag/depth-first-search/)
+  - [Dijkstra's Shortest Path](https://leetcode.com/problems/path-with-minimum-effort/)
+
